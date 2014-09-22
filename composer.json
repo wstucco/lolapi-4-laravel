@@ -1,0 +1,25 @@
+{
+    "name": "josephting/lolapi-4-laravel",
+    "description": "League of Legends API Service Provider for Laravel 4",
+    "keywords": ["League", "legends", "api", "laravel", "php"],
+    "homepage": "https://github.com/josephting/lolapi-4-laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "josephting",
+            "email": "josephting90@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "paquettg/leaguewrap": "0.5.7",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Josephting\\LolApi": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
