@@ -1,5 +1,5 @@
 {
-    "name": "josephting/lolapi-4-laravel",
+    "name": "wstucco/lolapi-4-laravel",
     "description": "League of Legends API Service Provider for Laravel 4",
     "version": "1.0.1",
     "keywords": ["League", "legends", "api", "laravel", "php"],
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Josephting\\LolApi": "src/"
+            "wstucco\\LolApi": "src/"
         }
     },
     "minimum-stability": "dev"
